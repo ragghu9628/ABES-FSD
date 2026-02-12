@@ -19,11 +19,6 @@ const readFile = async (path) => {
         console.log("unable to read");
     }
 }
-
-
-
-
-
 const writeFile = async (path, data) => {
     try {
         await fs.writeFile(path, data);
